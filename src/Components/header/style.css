@@ -1,0 +1,67 @@
+.Header{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px rgb(243, 243, 243);
+}
+.Insta{
+    width: 35%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Nav{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ImageIcon{
+    width: 15px;
+}
+.InputBusca{
+    background-color: #efefef;
+    margin-left: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.InputBusca input{
+    width: 220px;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.NavIcons{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.NavIcons div{
+    width: 25px;
+    height: 25px;
+    border: solid 1px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.ImageIconNav{
+    width: 25px;
+    cursor: pointer;
+}
+.Perfil{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 1px;
+    cursor: pointer;
+}

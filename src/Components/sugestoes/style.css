@@ -1,0 +1,58 @@
+.Sugestoes{
+  width: 90%;
+  margin-top: 30px;
+  margin-left: 5%;
+  font-size: 12px;
+}
+.Description_Avatar img{
+  width: 25%;
+  border-radius: 50%;
+}
+.Avatar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Description_Avatar{
+  display: flex;
+  align-items: center;
+}
+.Description_Avatar div{ 
+  padding-left: 10px;
+}
+.NameAvatar{
+  color: #ccc;
+}
+.Mudar{
+  color: #0095f6;
+}
+.Perfis,.PerfilsAdd {
+  margin-top: 30px;
+}
+.Gray{
+  color: #ccc;
+  font-weight: bold;
+}
+.SugestoesPerfils{
+  display: flex;
+  justify-content: space-between;
+}
+.Cursor{
+  cursor: pointer;
+}
+.ImageAdd {
+  width: 35px;
+  border-radius: 50%;
+}
+.Seguir{
+  color: #0095f6;
+}
+.PerfilAdd{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.PerfilAdd div{
+  padding-left: 10px;
+}
