@@ -35,3 +35,86 @@
   width: 100%;
   height: 100%;
 }
+.containerIcons{
+  background-color: #fff;
+}
+.iconsPost{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.iconsPost img{
+  width: 20px;
+}
+.iconsPrimary img{
+  width: 25px;
+  margin-right: 10px;
+}
+.like{
+  width: 95%;
+  margin: 10px auto;
+}
+.likeDescription{
+  color: rgb(168, 168, 168);
+}
+.numbers{
+  color: #000;
+  font-weight: bold;
+}
+.user{
+  width: 95%;
+  margin: 10px auto;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.user img{
+  width: 30px;
+}
+.comments{
+  width: 95%;
+  margin: 0 auto;
+  color: #ccc;
+}
+.timePost{
+  width: 95%;
+  margin: 10px auto;
+  color: #ccc;
+  font-size: 12px;
+}
+.commentsPost{
+  width: 100%;
+  margin: 10px auto;
+  border-top: 1px solid #ccc;
+}
+
+.commentsPost div{
+  width: 95%;
+  margin: 10px auto;
+}
+.containerPost{
+  display: flex;
+  justify-content: space-between;
+}
+.commentsPost img{
+  width: 20px;
+  margin-bottom: 10px;
+}
+.primaryComment{
+  display: flex;
+  align-items: center;
+}
+.primaryComment input{
+  padding-left: 10px;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.postComment p{
+  margin-left: 70%;
+  color: #0095f6;
+  opacity: .3;
+}

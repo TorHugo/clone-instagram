@@ -9,12 +9,12 @@ export function Home() {
 
   // https://source.unsplash.com/800x600/?airplane
 
-  const [feed, setFeed] = useState([])
-    useEffect(()=>{
-        axios.get('https://randomuser.me/api/?results=5')
-        .then(function ({data}) {
-          setFeed(data.results);
-        })
+    const [feed, setFeed] = useState([])
+      useEffect(()=>{
+          axios.get('https://randomuser.me/api/?results=10')
+          .then(function ({data}) {
+            setFeed(data.results);
+          })
     }, []);
 
   return (
@@ -28,6 +28,10 @@ export function Home() {
                 imageProfile={feed.picture.thumbnail}
                 name={feed.name.last}
                 imagePost={feed.picture.large}
+                like={feed.dob.age}
+                profileFeed={feed.name.first}
+                user={feed.name.last}
+                comments={feed.dob.age}
               />
             )
           }
